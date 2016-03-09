@@ -34,8 +34,6 @@ $(document).ready(function() {
     var pongOutput = pingPong(number);
     writeList(pongOutput);
 
-
-
     event.preventDefault();
   });
 });
