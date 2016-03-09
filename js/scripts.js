@@ -26,3 +26,16 @@ function writeList(pongOutput){
     };
     return;
 };
+
+//user interface
+$(document).ready(function() {
+  $("form#input").submit(function(event) {
+    var number = parseInt($("input#numberID").val());
+    var pongOutput = pingPong(number);
+    writeList(pongOutput);
+
+
+
+    event.preventDefault();
+  });
+});
