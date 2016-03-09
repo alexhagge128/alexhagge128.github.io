@@ -4,6 +4,8 @@ by Alex Hagge
 
 This is a class exercise dubbed Ping Pong. It is a simple application that I created that takes a number value input and will return a list of numbers starting from 1 to the set value the user entered. Depending on the values listed, they will either say PING, PONG, or PINGPONG depending if they are divisble by 3, 5 or 15.
 
+Due to time constraints, the CSS and HTML files are rather primitive, but the scripts work just fine. Thank you for your understanding. 
+
 Resources used:
 Javascript
 CSS
