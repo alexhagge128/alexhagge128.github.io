@@ -14,3 +14,15 @@ var pingPong = function(number) {
   };
   return listArray;
 }
+
+//function that will turn array elements into HTML elements
+function writeList(pongOutput){
+    var items = document.getElementById("pongList");
+      items.innerHTML = "";
+    for (var i = 0; i < pongOutput.length; i++ ) {
+        var item = document.createElement("li");
+        item.innerHTML = pongOutput[i];
+        items.appendChild(item);
+    };
+    return;
+};
