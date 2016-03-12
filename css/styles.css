@@ -1,5 +1,13 @@
 body {
-  padding-left: 20px;
+  background-color: tan;
+}
+
+.jumbotron {
+  background-color: lightgrey;
+}
+
+.jumbotron h1 {
+    padding-left: 10px;
 }
 
 button {
@@ -8,4 +16,8 @@ button {
 
 button:hover {
   background-color: lightgreen;
+}
+
+#leftcolumn {
+  padding-left: 15px;
 }
