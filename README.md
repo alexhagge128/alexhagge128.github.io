@@ -1,4 +1,4 @@
-# pingpongnumbergame
+# Ping Pong
 
 by Alex Hagge
 
